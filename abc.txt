@@ -1,4 +1,10 @@
-abc-
-first commit
-second commit
-third commit
+git 合并前一个commit
+git commit -m "first commit"
+git commit -m "second commit"
+git commit --amend
+进入编辑模式，可以修改commit的message
+然后：
+	1. 未 push
+		直接push
+	2. 已经push
+		--force push
